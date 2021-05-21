@@ -73,17 +73,3 @@ full_df_sorted = full_df_sorted[['player', 'position', 'team_full',
                                  'total_total_points_FPGW',
                                  'points_per_minute']]
 full_df_mins = full_df_sorted[full_df_sorted['total_minutes_FPGW'] > 500][:20]
-# Bale has been injured a lot of the season but his impact is huge when he
-# does play. Scoring an FPL point on average every 10 minutes of play.
-# What has been coined 'Pep Roullette', the constant changing of the Man City
-# starting 11 has meant that players are well rested for Champions League
-# nights and Premier League ties respectively. It's been a massive factor in
-# City doing so well this season. However, it does make it very difficult to
-# know which players are going to play in any given gameweek.
-# (Foden/Gundogan/Mahrez/Torres) As you'd expect the big 'premium' options are
-# pretty high up here (Fernandes/Kane/Salah/Son). Special mention to Jesse
-# Lingard who having rarely made an appearance at Man Utd over the past few
-# seasons has gone to West Ham and has been in amazing form, as proved by his
-# points_per_minute score.
-
-
