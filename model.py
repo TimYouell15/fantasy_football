@@ -368,10 +368,7 @@ top20_diff = get_top20_diff(full_df, current_gw)
 
 message = MIMEMultipart()
 message['Subject'] = "Tim\'s Top Tips - Gameweek " + str(upcoming_gw)
-message['From'] = 'timpython3@gmail.com'
-#email_list = ['timothy.youell@gmail.com', 'timmo2009@live.com']
-#message['To'] = ', '.join(email_list)
-message['To'] = 'timothy.youell@gmail.com'
+#removed my email addresses from here.
 intro_text = """\
 <html>
   <body>
