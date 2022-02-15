@@ -27,6 +27,13 @@ ele_cols = ['id', 'web_name', 'team', 'team_code', 'element_type',
             'corners_and_indirect_freekicks_order', 'direct_freekicks_order',
             'penalties_order', 'now_cost', 'total_points', 'value_season']
 
+event_cols = ['id', 'name', 'deadline_time', 'average_entry_score', 'finished',
+              'data_checked', 'highest_scoring_entry', 'deadline_time_epoch',
+              'deadline_time_game_offset', 'highest_score', 'is_previous',
+              'is_current', 'is_next', 'chip_plays', 'most_selected',
+              'most_transferred_in', 'top_element', 'top_element_info',
+              'transfers_made', 'most_captained', 'most_vice_captained']
+
 
 ele_types_cols = ['id', 'plural_name_short', 'squad_select', 'squad_min_play',
                   'squad_max_play', 'element_count']
@@ -69,8 +76,8 @@ headers = ['first_name', 'second_name', 'goals_scored', 'assists',
            'red_cards', 'yellow_cards', 'selected_by_percent', 'now_cost',
            'element_type']
 
-cut_cols = ['total_points', 'round', 'was_home', 'player_minutes_FPGW',
-            'total_minutes_FPGW', 'player_goals_scored_FPGW',
+cut_cols = ['total_points', 'round', 'fixture', 'was_home',
+            'player_minutes_FPGW', 'total_minutes_FPGW', 'player_goals_scored_FPGW',
             'total_goals_scored_FPGW', 'player_assists_FPGW',
             'total_assists_FPGW', 'player_goals_conceded_FPGW',
             'total_goals_conceded_FPGW', 'player_saves_FPGW',
@@ -90,3 +97,7 @@ cut_cols = ['total_points', 'round', 'was_home', 'player_minutes_FPGW',
 team_stat_cols = ['strength', 'strength_overall_home', 'strength_overall_away',
                   'strength_attack_home', 'strength_attack_away',
                   'strength_defence_home', 'strength_defence_away']
+
+team_list = ['ARS', 'AVL', 'BRE', 'BHA', 'BUR', 'CHE', 'CRY', 'EVE', 'LEI',
+             'LEE', 'LIV', 'MCI', 'MUN', 'NEW', 'NOR', 'SOU', 'TOT', 'WAT',
+             'WHU', 'WOL']
