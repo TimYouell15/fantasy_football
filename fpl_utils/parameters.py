@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Created on Tue May 11 17:18:47 2021
+Created on Mon Mar 28 17:27:39 2022
 
 @author: timyouell
 """
@@ -34,16 +34,13 @@ event_cols = ['id', 'name', 'deadline_time', 'average_entry_score', 'finished',
               'most_transferred_in', 'top_element', 'top_element_info',
               'transfers_made', 'most_captained', 'most_vice_captained']
 
-
 ele_types_cols = ['id', 'plural_name_short', 'squad_select', 'squad_min_play',
                   'squad_max_play', 'element_count']
-
 
 teams_cols = ['code', 'id', 'name', 'short_name', 'strength',
               'strength_overall_home', 'strength_overall_away',
               'strength_attack_home', 'strength_attack_away',
               'strength_defence_home', 'strength_defence_away']
-
 
 new_ele_cols = ['id', 'web_name', 'team', 'team_code', 'position_type',
                 'chance_of_playing_next_round', 'chance_of_playing_this_round',
@@ -97,7 +94,3 @@ cut_cols = ['total_points', 'round', 'fixture', 'was_home',
 team_stat_cols = ['strength', 'strength_overall_home', 'strength_overall_away',
                   'strength_attack_home', 'strength_attack_away',
                   'strength_defence_home', 'strength_defence_away']
-
-team_list = ['ARS', 'AVL', 'BRE', 'BHA', 'BUR', 'CHE', 'CRY', 'EVE', 'LEI',
-             'LEE', 'LIV', 'MCI', 'MUN', 'NEW', 'NOR', 'SOU', 'TOT', 'WAT',
-             'WHU', 'WOL']
